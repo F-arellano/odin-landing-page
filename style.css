@@ -105,3 +105,34 @@ li {
   background: #1f2937;
   height: 50px;
 }
+
+.second {
+  height: 600px;
+}
+
+.second h2 {
+  margin: 40px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  text-align: center;
+  color: grey;
+}
+
+.card img {
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+  width: 100%;
+  
+}
