@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Roboto sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: #1f2937;
+  height: 50px;
+}
+
+.banner {
+  height: 500px;
+  background: #1f2937;
+}
+
+
+.banner:nth-child(even) {
+  background: #ffffff;
+}
+
+.banner:nth-child(odd) {
+  background: #e5e7eb;
+}
+
+.footer {
+  flex-grow: 0;
+  background: #1f2937;
+  height: 50px;
+}
