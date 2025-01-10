@@ -6,16 +6,29 @@ body {
   flex-direction: column;
 }
 
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  margin: 0px 10px;
+}
+
 .header {
-  background: #1f2937;
+  background: grey;
   height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .banner {
+  display: flex;
   height: 500px;
-  background: #1f2937;
 }
-
 
 .banner:nth-child(even) {
   background: #ffffff;
@@ -25,7 +38,30 @@ body {
   background: #e5e7eb;
 }
 
+.column {
+  flex-direction: column;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: aquamarine;
+}
+
+.right-content img {
+  width: 500px;
+}
+
+.box {
+  display: flex;
+}
+
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
   flex-grow: 0;
   background: #1f2937;
   height: 50px;
