@@ -39,7 +39,6 @@ li {
 
 .banner {
   display: flex;
-  height: 200px;
   align-items: center;
 }
 
@@ -103,13 +102,12 @@ li {
   color: white;
   flex-grow: 0;
   background: #1f2937;
-  height: 50px;
+  height: 70px;
 }
 
 .second {
-  height: 600px;
+  padding: 30px; 
 }
-
 .second h2 {
   margin: 40px;
 }
@@ -135,4 +133,26 @@ li {
   border-radius: 8px;
   width: 100%;
   
+}
+
+.third {
+  background: #e5e7eb;
+  padding: 100px 200px;
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: stretch;
+}
+
+.third p {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 100;
+}
+
+.third .end {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: right;
+  width: 100%;
+  padding: 15px 30px;
 }
