@@ -39,19 +39,46 @@ li {
 
 .banner {
   display: flex;
-  height: 500px;
+  height: 200px;
+  align-items: center;
 }
 
-.banner:nth-child(even) {
+/* .banner:nth-child(even) {
   background: #ffffff;
 }
+*/
+.first {
+  background: #1f2937;
+  padding: 100px 200px;
+  gap: 60px;
+} 
 
-.banner:nth-child(odd) {
-  background: #e5e7eb;
+.first h1 {
+  margin: 0px;
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+}
+.first p {
+  color: #e5e7eb;
+}
+
+.first button {
+  color: #e5e7eb;
+  background: #3882f6;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
 }
 
 .column {
   flex-direction: column;
+}
+
+.left-content {
+  
 }
 
 .right-content {
